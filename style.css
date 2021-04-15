@@ -1,0 +1,99 @@
+.container {
+  background-color: #051866;
+}
+
+
+#title {
+  color: white;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  font-size: 2.2vw;
+  padding-top: 3vw;
+}
+
+#description {
+  color: white;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  font-size: 1.3vw
+}
+
+
+.form-body {
+  background-color: #004491;
+  display: flex;
+  width: 50%;
+  margin: auto;
+  border-radius: 8px;  
+}
+
+.form-group {
+  font-family: arial;
+  font-size: 1.3vw;
+  color: white;
+  margin: 2.4vw;
+}
+
+.form-control {
+  display: block;
+}
+
+input {
+  border-radius: 8px;
+  font-size: 1vw;
+  padding: 0.8vw;
+  margin-top: 1vw;
+  
+}
+
+.form-control{
+  width: 100%;
+}
+
+#dropdown {
+  border-radius: 8px;
+  display: flex;
+  font-size: 1vw;
+  font-family: arial;
+  width: 100%;
+  padding: 0.8vw;
+  margin: 1vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clue {
+  font-size: 1vw;
+  font-style: italic;
+}
+::placeholder {
+ color: black;
+}
+
+input[type=radio] {
+  display: inline-block;
+}
+
+label {
+  display: block;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  resize: vertical;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 3vw;
+  border-radius: 8px;
+  font-size: 1.5vw;
+  background-color: #089E9E;
+  color: white;
+}

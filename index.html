@@ -1,0 +1,129 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<div class="container">
+<header>
+  
+   
+  <h1 id="title"> 
+  Are You a Procrastinator?
+  </h1> 
+  <p id="description">
+    Find in a few easy steps whether or not you're a procrastinator
+  </p>
+  
+</header>
+
+<main>
+  <div class="form-body">
+    <form id="survey-form" action="/placeholder.txt" method="post">
+      
+      <div class="form-group">
+      <label for="name-label" id="name-label">Name</label>
+      <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
+      </div>
+      
+      <div class="form-group">
+      <label for="email-label" id="email-label">Email</label>
+      <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+      </div>
+      
+      <div class="form-group">
+       <label name="number-label" for="age" id="number-label">Age <span class="clue">(optional)</span></label>
+        <input type="number" id="number" min="1" max="99" name="age" class="form-control" placeholder="Age">
+      </div>
+      
+      <div class="form-group">
+        <label for="occupation">What best describes your current occupation?</label>
+        <select name="occupation" id="dropdown">
+          <option disabled selected value>Select current occupation</option>
+          <option value="student">Student</option>
+          <option value="part-time-worker">Part-time Worker</option>
+          <option value="full-time-worker">Full-time Worker</option>
+          <option value="self-employed">Self-employed</option>
+          <option value="unemployed">Unemployed</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <p>How would you define your current level of procrastination?</p>
+        <label>
+        <input type="radio" id="very-low" name="pro-level" value="very-low" class="input-radio" required>Very low
+        </label>
+        
+        <label>
+          <input type="radio" id="low" name="pro-level" value="low" class="input-radio" required>Low
+        </label>
+        
+          <label>
+          <input type="radio" id="regular" name="pro-level" value="regular" class="input-radio" required>Regular
+        </label>
+        
+        <label>
+          <input type="radio" id="high" name="pro-level" value="high" class="input-radio" required>High
+        </label>
+        
+        <label> 
+          <input type="radio" id="very-high" name="pro-level" value="very-high" class="input-radio" required>Very high
+        </label>
+      </div>
+          
+      <div class="form-group">
+        <p>What of the following things do you do instead of working/studying/doing chores? <span class="clue">(Select those that apply)</span></p>
+        <label>
+          <input name="prefer" value="social-media" type="checkbox" class="input-checkbox"> 
+          Check social media
+        </label>
+        
+        <label>
+          <input name="prefer" value="watch-tv" type="checkbox" class="input-checkbox">
+          Watch TV
+        </label>
+        
+        <label>
+          <input name="prefer" value="music" type="checkbox" class="input-checkbox">
+          Listen to music
+        </label>
+        
+        <label>
+          <input name="prefer" value="eat" type="checkbox" class="input-checkbox">
+          Eat snacks
+        </label>
+        
+        <label>
+          <input name="prefer" value="videogames" type="checkbox" class="input-checkbox">
+          Play videogames
+        </label>
+        
+        <label>
+          <input name="prefer" value="window-look" type="checkbox" class="input-checkbox">
+          Look outside the window
+        </label>
+        
+        <label>
+          <input name="prefer" value="clean-house" type="checkbox" class="input-checkbox">
+          Clean the house
+        </label>
+
+      </div>
+      
+      <div class="form-group">
+        <p>Tell us more about what made you choose to fill in this questionnaire</p>
+        <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here...">
+        </textarea>
+      </div>
+      
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+          </submit>
+      </div>
+      
+    </form>
+  </div>
+</main>
+</div>
